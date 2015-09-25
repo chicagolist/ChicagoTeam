@@ -1,0 +1,13 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ChicagoIPTV" name="ChicagoIPTV Repository" version="1.0.0" provider-name="ChicagoIPTV ">
+	<extension point="xbmc.addon.repository" name="ChicagoIPTV Repository">
+		<info compressed="false">https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/addons.xml</info>
+		<checksum>https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from ChicagoIPTV </description>
+		<platform>all</platform>
+	</extension>
+</addon>
