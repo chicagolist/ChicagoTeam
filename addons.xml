@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.ChicagoIPTV"
-       name="[COLOR red]Chicago[/COLOR][COLOR white]IPTV[/COLOR]"
-       version="3.8"
-       provider-name="ChicagoIPTV">
-  <requires>
+<addon id="plugin.video.ChicagoTeam"
+       name="[COLOR withe]Chicago[/COLOR][COLOR red]Team[/COLOR]"
+	   version="1.8.6"
+	   provider-name="L.P.N">
+   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -14,32 +13,29 @@
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>ChicagoIPTV</summary>
-    <description lang="en">[COLOR red]Chicago[/COLOR][COLOR white]IPTV[/COLOR] es gratis!!! , no te dejes engañar no pagues , saludos de parte de todo el #Staff #ChicagoIPTV</description>
+    <summary>[COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR]Tu mejor Opcion,basado en livestreamspro 1.8.5 by Shani</summary>
+<description lang="en">[COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR] Addon Latino que recopila Canales transmitidos por internet, tratando de traerte el mejor entretenimiento televisivo en espanol e ingles, puedes visitarnos en facebook grupo [COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR] </description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.ChicagoIPTV" name="ChicagoIPTV Repository" version="1.0.0" provider-name="ChicagoIPTV ">
-	<extension point="xbmc.addon.repository" name="ChicagoIPTV Repository">
-		<info compressed="false">https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/addons.xml</info>
-		<checksum>https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/ChicagoIPTV/ChicagoIPTV/master/</datadir>
+<addon id="repository.ChicagoTeam" name="ChicagoTeam Repository" version="1.0.0" provider-name="CL.P.N ">
+	<extension point="xbmc.addon.repository" name="ChicagoTeam Repository">
+		<info compressed="false">https://raw.github.com/chicagolist/ChicagoTeam/master/addons.xml</info>
+		<checksum>https://raw.github.com/chicagolist/ChicagoTeam/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/chicagolist/ChicagoTeam/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install my Addons</summary>
-		<description>Download and install addons from ChicagoIPTV </description>
+		<description>Download and install addons from ChicagoTeam </description>
 		<platform>all</platform>
 	</extension>
 </addon>
