@@ -21,13 +21,13 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR]Tu mejor Opcion,basado en livestreamspro 1.8.5 by Shani</summary>
+    <summary>[COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR]Tu mejor Opcion,basado en livestreamspro de Shani</summary>
 <description lang="en">[COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR] Addon Latino que recopila Canales transmitidos por internet, tratando de traerte el mejor entretenimiento televisivo en espanol e ingles, puedes visitarnos en facebook grupo [COLOR white]Chicago[/COLOR][COLOR red]Team[/COLOR] </description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.ChicagoTeam" name="ChicagoTeam Repository" version="1.0.0" provider-name="CL.P.N ">
+<addon id="repository.ChicagoTeam" name="ChicagoTeam Repository" version="1.0.0" provider-name="L.P.N ">
 	<extension point="xbmc.addon.repository" name="ChicagoTeam Repository">
 		<info compressed="false">https://raw.github.com/chicagolist/ChicagoTeam/master/addons.xml</info>
 		<checksum>https://raw.github.com/chicagolist/ChicagoTeam/addons.xml.md5</checksum>
